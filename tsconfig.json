@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/views/DraggbleScreen/components/InventoryComponent/stores/InventoryStore.js", "src/views/DraggbleScreen/components/InventoryComponent/services/InventoryService.js", "src/views/DraggbleScreen/components/ItemInfoComponent/stores/ItemInfoStore.js"  ],
   "exclude": [
     "node_modules"
   ]

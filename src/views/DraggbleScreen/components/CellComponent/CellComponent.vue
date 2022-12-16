@@ -1,6 +1,6 @@
 <template>
-    <div class="item" draggable="true" @dragstart="emit('onDragStart', $event, item?.id)" v-if="item"></div>
-    <div class="item__value" v-if="item">{{item.value}}</div>
+    <div  :style="`background:${item.color}`" class="item" draggable="true" @dragstart="emit('onDragStart', $event, item?.id)" v-if="item"></div>
+    <div  class="item__value"  v-if="item">{{item.value}}</div>
 </template>
 
 <script setup>
@@ -18,7 +18,7 @@ const emit = defineEmits(['onDragStart'])
 .item {
     width: 54px;
     height: 54px;
-    background: #7FAA65;
+    
     position: relative;
     left: -6px;
     bottom: -6px;

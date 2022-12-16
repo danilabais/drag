@@ -3,7 +3,7 @@
   <div class="wrapper">
     <SidebarComponent class="draggble__sidebar"/>
     <InventoryComponent class="draggble__inventory"/>
-    <UIGhost class="draggble__ghost"/>
+    <UIGhostBig class="draggble__ghost"/>
   </div>
  </div>
 </template>
@@ -11,7 +11,8 @@
 <script setup>
 import {SidebarComponent} from '@/views/DraggbleScreen/components/SidebarComponent'
 import {InventoryComponent} from '@/views/DraggbleScreen/components/InventoryComponent'
-import {UIGhost} from '@/UI/UIGhost'
+import {UIGhostBig} from '@/UI/ghosts/UIGhostBig'
+
 </script>
 
 <style lang="scss" scoped>
